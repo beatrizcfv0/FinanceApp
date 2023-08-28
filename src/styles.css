@@ -1,0 +1,65 @@
+body {
+    background-color: rgb(249, 243, 224);
+}
+
+.section {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.section2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.nes-container {
+    background-color: white;
+    margin: 35px;
+    width: 30%;
+}
+
+.spendings {
+    margin-right: 200px;
+    width: 40%;
+    margin-bottom: 60px;
+}
+
+.nes-balloon.from-left {
+    font-size: 14px;
+    background-color: white;
+    margin-left: 50px;
+    width: 700px;
+}
+
+.nes-progress {
+    display: block;
+    width: 800px;
+    margin-bottom: 70px;
+    margin-right: 150px;
+}
+
+hr {
+    height: 5px;
+    width: 650px;
+    border-width:0;
+    margin-left: 70px;
+    margin-top: -300px;
+    margin-bottom: 50px;
+    background-color: #212529;
+}
+
+.add {
+    margin-left: 50px;
+}
+
+h4 {
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.nes-field {
+    width: 35%;
+    margin-left: 50px;
+}

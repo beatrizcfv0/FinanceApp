@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./node_modules/nes.css/css/nes.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+    <link href="https://unpkg.com/nes.css/css/nes.css" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css">
+
+    <style>
+        html, body, pre, code, kbd, samp {
+            font-family: "Press Start 2P";
+        }
+    </style>
+    <title>Finance App</title>
+</head>
+<body>
+    <div class="section">
+        <div class="nes-container with-title">
+            <h2 >Welcome back <span class="nes-text is-success">Beatriz</span>!</h2>
+        </div>
+        <div class="nes-container is-centered spendings">
+            <h2>Spendings of the past <span class="nes-text is-error">30 DAYS</span></h2>
+        </div>
+    </div>
+    <div class="section2">
+        <div class="nes-balloon from-left nes-pointer">
+            <p>This is a Finance Tracker, here you can keep track of all your spendings with a 
+                <span class="nes-text is-primary">fun</span> and 
+                <span class="nes-text is-warning">visual</span> look.
+            </p>
+        </div>
+        
+        <div class="progress-bar">
+            <h3>OUTINGS</h3>
+            <progress class="nes-progress is-primary" value="80" max="100"></progress>
+            <h3>TECHNOLOGY</h3>
+            <progress class="nes-progress is-success" value="50" max="100"></progress>
+            <h3>OTHERS</h3>
+            <progress class="nes-progress is-warning" value="70" max="100"></progress>
+            <h1>TOTAL: </h1>
+        </div>
+    </div>
+    <hr>
+    <div class="section3">
+        <h2><a href="#" class="add">#</a> Add <i class="snes-jp-logo"></i></h2>
+        <h4>What did you buy?</h4>
+        <div class="nes-field is-inline">
+            <input type="text" id="inline_field" class="nes-input is-error">
+        </div>
+        <h4>How much it cost?</h4>
+        <div class="nes-field is-inline">
+            <input type="text" id="inline_field" class="nes-input is-error" placeholder="€">
+        </div>
+        <h4>Category</h4>
+        <div class="nes-field is-inline">
+            <input type="text" id="inline_field" class="nes-input is-error">
+        </div>
+    </div>
+</body>
+</html>
