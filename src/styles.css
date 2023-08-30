@@ -16,7 +16,8 @@ body {
 
 .nes-container {
     background-color: white;
-    margin: 35px;
+    margin-top: 35px;
+    margin-left: 60px;
     width: 30%;
 }
 
@@ -29,7 +30,7 @@ body {
 .nes-balloon.from-left {
     font-size: 14px;
     background-color: white;
-    margin-left: 50px;
+    margin-left: 60px;
     width: 700px;
 }
 
@@ -63,22 +64,22 @@ hr {
 }
 
 .add {
-    margin-left: 50px;
+    margin-left: 65px;
 }
 
 h4 {
     margin-top: 20px;
-    margin-left: 50px;
+    margin-left: 60px;
 }
 
 .nes-field {
     width: 35%;
-    margin-left: 50px;
+    margin-left: 60px;
 }
 
 .nes-btn {
     margin-top: -30px;
-    margin-left: 55px;
+    margin-left: 70px;
 }
 
 .close {
